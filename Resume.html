@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <title>Profile</title>
     <link rel="stylesheet" href="Resume-Design.css">
     <link rel="stylesheet" href="mediaqueries.css">
      
 </head>
 <body>
     <nav id="navbar">
-        <div class="logo">Cielo Hilario</div>
+        <div class="logo"
+        onclick="location.href='#profile'">Cielo Hilario</div>
         <div>
             <ul class="nav-links">
-                <li><a href="#profile">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>      
@@ -29,8 +30,8 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#home" onclick="toggleMenu() ">Home</a></li>
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu() ">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </div>
@@ -48,7 +49,7 @@
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="
                     window.open('./')">Download CV</button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                <button class="btn btn-color-1" onclick="location.href='#contact'">
                     Contact Info
                 </button>
             </div>
@@ -63,7 +64,8 @@
         src="./images/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#about'"/>
+        onclick="location.href='./#about'"
+        />
     </section>
     <section id="about">
         <p class="section_text_p1">Get to Know Me</p>
@@ -76,8 +78,8 @@
                 <div class="about-containers">
                     <div class="details-container">
                         <img src="./images/experience.png" alt="experience" class="icon"/>
-                        <h3>Skills</h3>
-                        <p>my skills</p>
+                        <h3>Full-Stack Web Developer</h3>
+                        <p>Focused on Innovative Solutions</p>
                     </div>
                     <div class="details-container">
                         <img src="./images/education.png" class="icon"/>
@@ -86,7 +88,11 @@
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>my details</p>
+                    <p>I am a dedicated and driven aspiring full-stack developer with a solid foundation in front-end and back-end technologies, including HTML, CSS, Javascript, React, Node.js,
+                        Express, and MongoDB. Through self-directed study and completion of comprehensive online courses, I have developed string problem-solving skills and the ability to adapt quickly
+                        to new challenges. I have successfully applied my knowledge to personal projects, where I honed my skills in developing responsive web applications and working collaboratively with peers. I am eager to 
+                        bring my technical expertise for innovation to a forward-thinking team, contributing to impactful projects and advancing my career in web development.
+                    </Node></p>
                 </div>
             </div> 
         </div>
@@ -94,7 +100,8 @@
         src="./images/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"/>
+        onclick="location.href='#experience'"
+        />
     </section>
     <section id="experience">
         <p class="section_text_p1">Explore my</p>
@@ -102,7 +109,7 @@
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Front End Development</h2>
+                    <h2 class="experience-sub-title">Front-End Development</h2>
                     <div class="article-container">
                         <article>
                             <img src="./images/completed.png"
@@ -149,10 +156,19 @@
                                 <p>Basic</p>
                             </div>
                         </article>
+                        <article>
+                            <img src="./images/completed.png"
+                            alt="Experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>React</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
                     </div>
                 </div>
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Front End Development</h2>
+                    <h2 class="experience-sub-title">Back-End Development</h2>
                     <div class="article-container">
                         <article>
                             <img src="./images/completed.png"
@@ -181,6 +197,15 @@
                                 <p>Basic</p>
                             </div>
                         </article>                      
+                        <article>
+                            <img src="./images/completed.png"
+                            alt="Experience icon"
+                            class="icon"/>
+                            <div>
+                                <h3>Git</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>                      
                     </div>
                 </div>
             </div>
@@ -189,7 +214,7 @@
         src="./images/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"/>
+        onclick="location.href='#projects'"/>
     </section>
 
     <section id="projects">
@@ -250,7 +275,7 @@
         src="./images/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contanct'"/>
+        onclick="location.href='#contact'"/>
     </section>
 
     <section id="contact">

@@ -252,7 +252,7 @@ section{
 }
 
 .about-pic{
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 .arrow{
     position: absolute;
@@ -320,6 +320,9 @@ article{
 article .icon{
     cursor: default;
 }
+.text-container{
+    text-align: justify;
+}
 
 /* Project Section */
 
@@ -334,8 +337,8 @@ article .icon{
 
 .project-img{
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 40%;
+    height: 40%;
 }
 
 .project-title{
